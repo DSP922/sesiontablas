@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesion tablas</title>
+    <style>
+        table{
+            border: 1px solid;
+        }
+        td{
+            border: 1px red;
+        }
+        thead{
+            background-color: antiquewhite;
+        }
+        tbody{
+            background-color: aquamarine;
+        }
+        tfoot{
+            background-color: rgb(230, 37, 23);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sesion tablas</h1>
+    </header>
+    <main>
+        <!--Tabla basica muy simple-->
+        <table>
+            <tr>
+                <td>Perro</td>
+                <td>Gato</td>
+                <td>Pollo</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>5</td>
+                <td>15</td>
+            </tr>
+        </table>
+
+        <!--Tabla completa-->
+        <h2>Tabla completa</h2>
+        <table>
+            <caption>Lenguajes de programacion</caption>
+            <!-- <thead> -->
+            <thead>
+                <tr>
+                    <th>Lenguaje</th>
+                    <th>Porcentaje de uso</th>
+                    <th>Entorno</th>
+                    <th>Diseño</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Javascript</td>
+                    <td>30%</td>
+                    <td>Frondend</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>70%</td>
+                    <td>Backend</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>15%</td>
+                    <td>IA</td>
+                    <td>No</td>
+                </tr>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>@2026-Wikipedia</td>
+                </tr>
+            </tfoot>
+        </table>
+        <table>    
+            <!--Tabla notas-->
+            <h2>Tabla notas</h2>
+                <caption>Notas</caption>
+                <thead>
+                    <td>Alumno</td>
+                    <td>IA1</td>
+                    <td>IA2</td>
+                    <td>IA3</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Pol</strong></td>
+                        <td>9</td>
+                        <td>8</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Juan</strong></td>
+                        <td>10</td>
+                        <td>4</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ana</strong></td>
+                        <td>10</td>
+                        <td>9</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td><strong>Promedio</strong></td>
+                        <td>9,7</td>
+                        <td>3</td>
+                        <td>6</td>
+                    </tr>
+                </tfoot>
+        </table>
+    </main>
+    <footer>
+        <p>Sesion <data value="03/11/2026">03/11/2026</data></p>
+    </footer>
+</body>
+</html>
